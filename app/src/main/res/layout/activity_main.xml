@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/baby"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:text="Baby"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/Fine"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/Fine"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="76dp"
+        android:text="Fine"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/like"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="Like"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fine" />
+
+    <Button
+        android:id="@+id/feelings"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:text="Feelings"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/like"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/baby" />
+
+    <Button
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Health"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/wash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feelings" />
+
+    <Button
+        android:id="@+id/in"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="In"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sad"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/health"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="76dp"
+        android:text="Sad"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wash"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/eat"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="eat"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/cup"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/work"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="work"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/clean"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eat" />
+
+    <Button
+        android:id="@+id/cup"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="cup"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/nice"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="nice"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/good"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/work" />
+
+    <Button
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="happy"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/parents"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nice" />
+
+    <Button
+        android:id="@+id/good"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="good"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clean" />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="clean"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cup" />
+
+    <Button
+        android:id="@+id/parents"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="76dp"
+        android:text="parents"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/good" />
+
+    <Button
+        android:id="@+id/wash"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginEnd="76dp"
+        android:text="wash"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/like" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:text="CB.EN.U4CSE19345 - R Ashwin"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="246dp"
+        android:layout_height="82dp"
+        android:text="19CSE433 - Computer Graphics and Visualization Project"
+        android:textAlignment="center"
+        android:textColor="#62E5F6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="328dp"
+        android:layout_height="38dp"
+        android:text="CB.EN.U4CSE19361 - Vishal Karthikeyan"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parents"
+        app:layout_constraintVertical_bias="0.06" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
